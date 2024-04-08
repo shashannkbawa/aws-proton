@@ -12,8 +12,8 @@ schema:
         lambda_runtime:
           type: string
           description: "The runtime for your Lambda service"
-          enum: [ "nodejs12.x", "python3.12", "ruby2.7","java21", "java11", "java8", "go1.x", "dotnetcore3.1" ]
-          default: "java8"
+          enum: [ "nodejs12.x", "python3.12", "ruby2.7","java21","java17", "java11", "java8", "go1.x", "dotnetcore3.1" ]
+          default: "java17"
         lambda_handler:
           type: string
           description: "The handler path to find the CRUD methods for this API"
